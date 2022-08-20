@@ -1,0 +1,94 @@
+//1st question
+
+
+$ git version
+$ git config --global user.name "gayathri"
+$ git config --global user.email "ssgayathri2001@gmail.com"
+$ git config --global --list
+$ notepad++
+$ notepad++.exe bash -profile
+$ git config --global core.editor "notepad++.exe -multiInst -nosession"
+$ git config --global -e
+$ git init gitdemo
+$ ls -al
+$ echo "welcome">>welcome.txt
+$ ls -al
+$ cat welcome.txt
+$ git status
+$ git add welcome.txt
+$ git commit
+$ git status
+$ git remote add origin https://github.com/Gayusara25/gitdemo.git
+$ git pull origin main
+$ git push origin main
+
+
+--------------------------------------------------------------------------------------
+
+//3rd question
+
+//BRANCHING
+$ cd "C:\Users\Gayathri\Desktop\simplilearn\2nd_day_demo"
+$ git status
+$ git branch
+$ git branch newbranch
+$ git branch
+$ git checkout newbranch
+$ touch git3.cs
+$ git status
+$ git commit -m "new branching"
+$ git status
+$ git add .
+$ push -u origin newbranch
+
+//MERGING
+$ git checkout master
+$ git status
+$ git diff master..newbranch
+$ git difftool(p4merge difftool)
+$ git merge newbranch
+$ git log -oneline -graph -decorate
+$ git branch -d newbranch 
+$ git status
+
+
+--------------------------------------------------------------------------------------
+
+//2nd question
+
+$ cd "C:\Users\Gayathri\Desktop\simplilearn\2nd_day_demo"
+$ echo "hello!!!" >>file.log
+$ cat file.log
+$ mkdir log
+$ git status
+$ touch .gitignore.txt
+
+(inside gitignore
+
+.log
+file.log 
+)
+
+$ git status
+
+
+-----------------------------------------------------------------------------------
+//4th question
+
+
+$ cd "C:\Users\Gayathri\Desktop\simplilearn\2nd_day_demo"
+$ git branch -a
+$ git pull origin master
+$ git push origin master
+$ git status
+
+----------------------------------------------------
+
+
+
+
+
+
+
+
+
