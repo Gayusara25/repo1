@@ -244,7 +244,24 @@ namespace _18aug
             Console.WriteLine("USD " + usd + "-> INR " + inr);
             Console.ReadLine();*/
 
-
+            //16
+            
+            String firstname;
+            Console.Writeline("firstname is ");
+            firstname=Console.Readline();
+             String lastname;
+            Console.Writeline("lastname is ");
+            lastname=Console.Readline();
+            string userid,password;
+            if( firstname==userid&&lastname==password)
+            {
+                Console.Writeline("successfully logged in!!!");
+                Console.Writeline("Welcome to my app");
+            }
+            else
+            {
+                Console.Writeline("Unsuccessful.. please check userid or password");
+            }
 
 
 
