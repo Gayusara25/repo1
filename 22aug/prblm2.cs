@@ -27,4 +27,4 @@ int i,n;
 	   Console.Write("{0} ",a[i]);
                 Console.Read();
 	  }
-   Console.Write("\n\n");
+   Console.Write("\n");
