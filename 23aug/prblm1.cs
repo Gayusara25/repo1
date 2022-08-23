@@ -1,4 +1,4 @@
-﻿/*using System;
+using System;
 class Problem1
 {
     public void sum()
@@ -16,4 +16,4 @@ class Problem1
         Console.ReadLine();
 
     }
-}*/
+}
