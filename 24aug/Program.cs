@@ -11,7 +11,7 @@ namespace myapp
     {
         static void Main(string[] args)
         {
-            /*   DateTime dt1 = new DateTime();
+              DateTime dt1 = new DateTime();
                dt1 = Convert.ToDateTime(Console.ReadLine());
 
                Console.WriteLine("enter your bday date");
@@ -32,26 +32,26 @@ namespace myapp
 
 
 
-               Console.ReadLine();   */
-            /*Console.WriteLine("enter the string");
-            myapp.printstring();
-            Console.WriteLine("-----------------------------------");*/
+               Console.ReadLine();   
+            Console.WriteLine("enter the string");
+           class1.printstring();
+            Console.WriteLine("-----------------------------------");
             Console.WriteLine("compare two string ");
             prgm1.print();
-           /* Console.WriteLine("-----------------------------------");
+           Console.WriteLine("-----------------------------------");
             Console.WriteLine("string copy from s1 to s2 ");
-            Class2.copys();
+            prgm2.copystring();
             Console.WriteLine("-----------------------------------");
-            Class3.splits();
+            prgm3.splits();
             Console.WriteLine("-----------------------------------");
-            Class4.upper();
+            prgm4.upper();
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("new file is created");
-            Class5.file();
+            prgm5.file();
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("date properities");
-            Class6.dateprop();
-            Console.WriteLine("-----------------------------------");*/
+            prgm6.dateprop();
+            Console.WriteLine("-----------------------------------");
            Console.ReadLine();
 
         }
